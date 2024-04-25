@@ -1,0 +1,98 @@
+.navbar{
+    background-image:linear-gradient(rgba(2, 18, 49, 0.632),rgba(5, 15, 62, 0.655)), url(../../assets/miami-beach.jpg);
+    justify-content: space-between;
+    width: 100vw;
+    height: 95vh;
+    background-position: center;
+}
+
+.nav-items{
+    width: inherit;
+    height: 5rem;
+    border-bottom: 0.3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;     
+} 
+
+.nav-items>div>img{
+    margin: 15px 0 15px 70px;
+    width: 125px;
+    height: 70px;
+}
+
+.links{
+    margin-right: 100px;
+}
+
+.links>a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+
+.text-box {
+    color: white;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Align text within h1 and p */
+    height: 60vh; /* Adjust this according to your needs */
+  }
+  
+  .text-box h1{
+      font-size: 3.5rem;
+      font-weight: lighter;
+  }
+  
+  .text-box p{
+      margin: 10px 0 40px;
+      font-size: 1.2rem;
+      text-align: center;
+  }
+
+  .search-eng {
+    position: relative;
+    width: 70%;
+    background-color: white;
+    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 35px;
+    align-items: center;
+    border-radius: 5px;
+    transform: translateY(50px); 
+  }
+
+  .search-eng select,
+.search-eng input {
+  width: 150px; 
+  height: 35px; 
+  border: 1px solid rgb(220, 220, 220); 
+  padding: 0 5px; 
+  border-radius: 5px;
+  background-color: white;
+}
+
+.search-eng button{
+    background-color: #00aeff;
+    width: 150px;
+    height: 35px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.search-eng button:hover{
+    background-color: #4abff5;
+
+}
+
+  
+
