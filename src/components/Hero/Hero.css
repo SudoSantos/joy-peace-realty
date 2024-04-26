@@ -1,0 +1,16 @@
+.discover{
+    color: black;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 330px; 
+    background-color: #e3e4e5;
+    /* border: 1px solid black; just for visualization */
+}
+
+.discover h1{
+    font-size: 2.7rem;
+    font-weight: lighter;
+}
