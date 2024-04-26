@@ -1,0 +1,67 @@
+.images-br {
+    width: 100vw;
+    max-height: 600px;
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+}
+
+.col {
+    flex: 1;
+    position: relative;
+    padding: 20px;
+    margin-top: 50px;
+    /* border: 1px solid #ccc;  Just for visualization */
+}
+
+.col img {
+    max-width: 100%;
+}
+
+.col h4 {
+    margin: 7px 0;
+    font-weight: lighter;
+    /* margin-left: 15px; */
+}
+
+.col p.location {
+    margin: 7px 0;
+    font-size: 14px;
+}
+
+.col p.num {   
+    /* margin-top: 7px; */
+    margin: 7px 0;
+    /* margin-left: 15px; */
+    font-size: 0.9rem;
+}
+
+.short-line{
+    width: 100%;
+    border-bottom: 0.2px solid rgb(196, 190, 190);
+    margin-top: 20px;
+}
+
+.arr-left,
+.arr-right{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.arr-left{
+    top: 30%;
+    left: 5%;
+}
+
+.arr-right{
+    bottom: 64%;
+    right: 5%;
+}
+
+
+.bedIcon{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
