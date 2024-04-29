@@ -1,58 +1,71 @@
 import React from 'react'
-import image from '../../assets/FeaturedPimages/house2.jpg';
+import image from '../../assets/FeaturedPimages/house5.jpg';
 import '../FeaturedP/FeaturedP.css';
+import { LiaBedSolid } from "react-icons/lia";
+import './Finest.css';
 
 function Finest() {
   return (
-    <section style={{backgroundColor: '#f7f8f9', transform: 'translateY(-100px)'}}>
+    <section style={{backgroundColor: '#f7f8f9'}}>
 
         <section className="images-br">
   
         <div className="col">
             <img src={image}  alt=''/>
-            <div style={{transform: 'translateY(-100px)', color: 'white'}}>
+            <div className='holder'>
             <h4>Luxurious 1 Bedroom Apartment for sale</h4>
-            <p className="location">Osapa London Lagos, Nigeria</p>
+            <b className="location">#580,000,000</b>
+            <div style={{display:'flex', alignItems:'center', gap:'10px'}}>
+            <LiaBedSolid className="bedIcon" />
             <p className="num">2 &nbsp; &nbsp; 1</p>
-            <p className="num">RESIDENTIAL APARTMENT</p>
             </div>
             
+            </div>
         </div>
         
   
         <div className="col">
           <img src={image} alt='' />
-          <div style={{transform: 'translateY(-100px)', color: 'white'}}>
+          <div className='holder'>
             <h4>Luxurious 2 Bedroom Apartment for sale</h4>
-            <p className="location">Ikoyi Lagos State Nigeria</p>
+            <b className="location">#580,000,000</b>
+            <div style={{display:'flex', alignItems:'center', gap:'10px'}}>
+            <LiaBedSolid className="bedIcon" />
             <p className="num">2 &nbsp; &nbsp; 1</p>
-            <p className="num">MULTI FAMILY HOME, APARTMENT</p>
+            </div>
+            
           </div>
         </div>
         
   
         <div className="col">
           <img src={image} alt='' />
-          <div style={{transform: 'translateY(-100px)', color: 'white'}}>
+          <div className='holder'>
             <h4>5 Bedroom Contemporary Full Detached</h4>
-            <p className="location">Ikate, Lagos State, Nigeria</p>
+            <b className="location">#580,000,000</b>
+            <div style={{display:'flex', alignItems:'center', gap:'10px'}}>
+            <LiaBedSolid className="bedIcon" />
             <p className="num">2 &nbsp; &nbsp; 1</p>
-            <p className="num">SINGLE FAMILY HOME, APARTMENT</p>
+            </div>
+            
           </div>
           
         </div>
  
       </section>
 
-      <section className="images-br" style={{transform: 'translateY(-150px)'}}>
+      <section className="images-br" style={{transform: 'translateY(-50px)'}}>
   
         <div className="col">
             <img src={image} alt='' />
-            <div style={{transform: 'translateY(-100px)', color: 'white'}}>
+            <div className='holder'>
               <h4>Luxurious 1 Bedroom Apartment for sale</h4>
-              <p className="location">Osapa London Lagos, Nigeria</p>
-              <p className="num">2 &nbsp; &nbsp; 1</p>
-              <p className="num">RESIDENTIAL APARTMENT</p>
+              <b className="location">#580,000,000</b>
+              <div style={{display:'flex', alignItems:'center', gap:'10px'}}>
+            <LiaBedSolid className="bedIcon" />
+            <p className="num">2 &nbsp; &nbsp; 1</p>
+            </div>
+            
             </div>
             
         </div>
@@ -60,28 +73,34 @@ function Finest() {
   
         <div className="col">
           <img src={image} alt='' />
-          <div style={{transform: 'translateY(-100px)', color: 'white'}}>
+          <div className='holder'>
             <h4>Luxurious 2 Bedroom Apartment for sale</h4>
-            <p className="location">Ikoyi Lagos State Nigeria</p>
+            <b className="location">#580,000,000</b>
+            <div style={{display:'flex', alignItems:'center', gap:'10px'}}>
+            <LiaBedSolid className="bedIcon" />
             <p className="num">2 &nbsp; &nbsp; 1</p>
-            <p className="num">MULTI FAMILY HOME, APARTMENT</p>
+            </div>
+            
           </div>          
         </div>
         
   
         <div className="col">
           <img src={image} alt='' />
-          <div style={{transform: 'translateY(-100px)', color: 'white'}}>
+          <div className='holder'>
             <h4>5 Bedroom Contemporary Full Detached</h4>
-            <p className="location">Ikate, Lagos State, Nigeria</p>
+            <b className="location">#580,000,000</b>
+            <div style={{display:'flex', alignItems:'center', gap:'10px'}}>
+            <LiaBedSolid className="bedIcon" />
             <p className="num">2 &nbsp; &nbsp; 1</p>
-            <p className="num">SINGLE FAMILY HOME, APARTMENT</p>
+            </div>
+            
           </div>          
         </div>
  
       </section>
 
-      <div className="ldmr" style={{transform: 'translateY(-150px)'}}>
+      <div className="ldmr" style={{transform: 'translateY(-50px)'}}>
         <button>Load More</button>
       </div>
            
