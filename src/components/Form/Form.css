@@ -1,0 +1,140 @@
+.big-container{
+    width: 100%;
+    height: 1000px;
+    background-image: linear-gradient(rgba(31, 109, 173, 0.7),rgba(18, 44, 150, 0.7)), url(../../assets/banner.jpg)
+
+  }
+  
+.parts {
+    display: flex;
+    min-height: 600px;
+    max-width: 90vw;
+    padding: 20px;
+  }
+  
+
+.part {
+    flex: 1;
+    /* border: 1px solid black; */
+    padding: 30px;
+    margin-top: 100px;
+ }
+  
+.part.one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+  }
+  
+.part.one .content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+    color: white;
+  }
+  
+.part.one h2 {
+    margin-bottom: 15px;
+    font-weight: lighter;
+  }
+  
+.part.one p {
+    margin: 0;
+  }
+  
+  
+.part.two{
+    flex: 1;
+    /* border: 1px solid black; just to see the width of the  object*/
+    background-color: white;
+    transform: translateX(40px);
+  }
+
+.part.two h4{
+    margin-top: 10px;
+}
+
+.part.two .full{
+    border: 2px solid rgb(212, 205, 205);
+    background-color: white;
+    width: 90%;
+    height: 45px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    font-size: 14px;
+    padding: auto;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 90%;
+  }
+  
+.info input {
+    width: 90%;
+    height: 35px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(212, 205, 205);
+    border-radius: 5px;
+    padding-left: 2%;
+  }
+
+.info input:nth-of-type(2){
+    margin-left: 25px;
+  }
+
+.sprd select,
+.sprd input{
+    width: 42%;
+    height: 40px;
+    border: 2px solid rgb(212, 205, 205);
+    border-radius: 5px;
+}
+
+.sprd select{
+    margin-right: 25px;
+}
+
+.btn{
+    width: 90%;
+    height: 40px;
+    background-color: #00aeff;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(45, 163, 237, 0.829);
+}
+
+.ldmr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 25px; /* Adjust as needed */
+}
+
+.ldmr button{
+    border: 1px solid #00aeff;
+    color: #00aeff;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ldmr button:hover{
+    background-color: #00aeff;
+    color: white;
+    transition: .2s ease-in;
+}
