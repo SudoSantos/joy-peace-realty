@@ -5,6 +5,8 @@ import Midpage from './components/Midpage/Midpage';
 import Form from './components/Form/Form';
 import Finest from './components/Finest/Finest';
 import Explore from './components/Explore/Explore';
+import Agents from './components/Agents/Agents';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       </div>
       <Finest />
       <Explore />
+      <Agents />
 
      
     </div>

@@ -1,0 +1,67 @@
+.agentus{
+    padding: 50px 0;
+    /* width: 100vw; */
+    /* height: 100vh; */
+    background-color: #f7f8f9;
+}
+
+.meet{
+    color: black;  
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+
+
+.agents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+    /* padding: 40px; */
+  }
+  
+.agent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    background-color: #fff;
+    margin: 1px;
+    transform: translateY(30px);
+}
+  
+.agent img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+.name,
+.role{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.role{
+    font-weight: 600;
+}
+
+.name{
+    color: #00aeff;
+}
+  
+a{
+    display: block;
+    /* background-color: #333; */
+    color: #00aeff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 25px;
+}
