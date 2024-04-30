@@ -13,9 +13,26 @@
     /* border: 1px solid #ccc;  Just for visualization */
 }
 
+.col::after{
+    content: "";
+  position: absolute;
+  bottom: 33%;
+  left: 4.5%;
+  width: 91%;
+  height: 30%; /* Adjust the height of the gradient overlay as needed */
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.7)); /* Adjust the opacity as needed */
+}
+
+/* 
+.col:hover .col::after{
+    display: none;
+} */
+
 .col img {
     max-width: 100%;
 }
+
+
 
 .col h4 {
     margin: 7px 0;
@@ -64,4 +81,43 @@
     width: 30px;
     height: 30px;
     margin: 0;
+}
+
+.status{
+    position: absolute;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.status>a:first-child{
+    text-transform: uppercase;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    color: white;
+    width: 80px;
+    height: 20px;
+    background: #77c720;
+}
+
+.status>a:last-child{
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    color: white;
+    width: 70px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.598);
+}
+
+.plus{
+    position: absolute;
+    color: black;
 }

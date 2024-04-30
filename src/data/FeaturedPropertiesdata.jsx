@@ -14,7 +14,8 @@ export const FeaturedPropertiesdata = [
         desc: 'Luxurious 1 Bedroom Apartment for sale',
         location: 'Osapa London Lagos, Nigeria',
         nob: '1',
-        type:'RESIDENTIAL APARTMENT'
+        type:'RESIDENTIAL APARTMENT',
+        price:'50,000,000'
     },
 
     {
@@ -22,7 +23,8 @@ export const FeaturedPropertiesdata = [
         desc: 'Luxurious 2 Bedroom Apartment for sale',
         location: 'Ikoyi Lagos State Nigeria',
         nob: '2',
-        type:'MULTI FAMILY HOME, APARTMENT'
+        type:'MULTI FAMILY HOME, APARTMENT',
+        price: '70,000,000'
     },
 
     {
@@ -30,6 +32,7 @@ export const FeaturedPropertiesdata = [
         desc: "5 Bedroom Contemporary Full Detached",
         location: 'Ikate, Lagos State, Nigeria',
         nob: '5',
-        type:'SINGLE FAMILY HOME, APARTMENT'
+        type:'SINGLE FAMILY HOME, APARTMENT',
+        price: '90,000,000'
     }
 ];
