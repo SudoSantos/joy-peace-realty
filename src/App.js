@@ -7,6 +7,7 @@ import Finest from './components/Finest/Finest';
 import Explore from './components/Explore/Explore';
 import Agents from './components/Agents/Agents';
 import Testimonials from './components/Testimonials/Testimonials';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Explore />
       <Agents />
       <Testimonials />
+      <Footer />
 
      
     </div>
