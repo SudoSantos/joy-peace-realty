@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="nav-items">
         <div>
-          <img src={ joypeaceLogo } alt="" />
+          <img src={joypeaceLogo} alt="" />
         </div>
         <div className="links">
           <a href="/">Home</a>
@@ -41,9 +41,6 @@ const Navbar = () => {
           {propertyTypedata.map((property, index) => {
             return <option value="">{property.type}</option>;
           })}
-
-          {/* <option value="">Commercial</option>
-          <option value="">Land</option> */}
         </select>
 
         <select name="" id="">
