@@ -6,6 +6,7 @@ import Form from './components/Form/Form';
 import Finest from './components/Finest/Finest';
 import Explore from './components/Explore/Explore';
 import Agents from './components/Agents/Agents';
+import Testimonials from './components/Testimonials/Testimonials';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Finest />
       <Explore />
       <Agents />
+      <Testimonials />
 
      
     </div>

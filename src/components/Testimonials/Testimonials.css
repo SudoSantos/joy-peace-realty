@@ -1,0 +1,35 @@
+.testimonialz {
+    max-width: 100vw;
+    padding: 30px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.testifier {
+    width: 30;
+    height: fit-content;
+    background-color: #edf9ff;
+    margin-top: 50px;
+    margin: 50px 20px 100px 20px;
+    transform: translateY(100px);
+    padding: 30px;
+}
+
+.testifier img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.testifier p {
+    margin-top: 50px;
+}
