@@ -4,6 +4,7 @@ import FeaturedP from './components/FeaturedP/FeaturedP';
 import Midpage from './components/Midpage/Midpage';
 import Form from './components/Form/Form';
 import Finest from './components/Finest/Finest';
+import Explore from './components/Explore/Explore';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <h1>Check Our Selection Of Finest Properties</h1>
       </div>
       <Finest />
+      <Explore />
 
      
     </div>

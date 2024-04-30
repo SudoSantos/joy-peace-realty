@@ -1,0 +1,41 @@
+.ln-img{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.image-cntr{
+    width: 20%;
+    height: 400px;
+    margin: 15px;
+    margin-top: -50px;
+}
+
+.image-cntr img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;  
+}
+
+.text-cntr{
+    width: 20%;
+    vertical-align: center;
+    margin-top: -50px;
+    margin: 15px;
+    /* line-height: 50px; */
+}
+
+.text-cntr h3{
+    font-weight: lighter;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.text-cntr p{
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 25px;
+    font-family: sans-serif;
+}
