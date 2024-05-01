@@ -1,36 +1,53 @@
 .images-br {
     width: 100vw;
     max-height: 600px;
-    display: flex;
-    justify-content: space-between; /* Adjust as needed */
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    justify-content: space-between;
+    overflow: hidden;
 }
 
-.col {
+.card-container {
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+    padding: 20px;
+    width: 100vw;
+  }
+  
+  .col {
+    flex: 0 0 auto;
+    width: 390px;
+    position: relative;
+    /* Add other card styles */
+  }
+/* .col {
     flex: 1;
     position: relative;
     padding: 20px;
     margin-top: 50px;
-    /* border: 1px solid #ccc;  Just for visualization */
-}
-
-.col::after{
-    content: "";
-  position: absolute;
-  bottom: 33%;
-  left: 4.5%;
-  width: 91%;
-  height: 30%; /* Adjust the height of the gradient overlay as needed */
-  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.7)); /* Adjust the opacity as needed */
-}
-
-/* 
-.col:hover .col::after{
-    display: none;
 } */
 
-.col img {
-    max-width: 100%;
+.col::after{
+  content: "";
+  position: absolute;
+  bottom: 32%;
+  /* left: 4.5%; */
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.7));
 }
+
+
+.col img {
+    /* max-width: 100%; */
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
 
 
 
@@ -86,7 +103,9 @@
 .status{
     position: absolute;
     display: flex;
-    width: 90%;
+    align-items: center;
+    width: 100%;
+    /* border: 1px dotted; */
     justify-content: space-between;
 }
 
@@ -118,6 +137,70 @@
 }
 
 .plus{
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px dotted; */
     position: absolute;
-    color: black;
+    top: 55%;
+    /* left: 9%; */
+    z-index: 30;
+    /* color: black; */
+}
+
+.plus>p{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.plus>div{
+    display: flex;
+    gap: 5px;
+}
+
+.plus>div>button{
+    background-color: rgba(0, 0, 0, 0.611);
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.icon{
+    width: 17px;
+    height: 17px;
+    color: white;
+}
+
+.naira{
+    width: 25px;
+    height: 25px;
+}
+
+.move{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    right: 3%;
+    /* border: 1px dotted; */
+    width: 8%;
+}
+
+.move>button{
+    border: none;
+    color: white;
+    background-color: #d9d9d9;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    transition: 0.1s ease-in ;
+}
+
+.move>button:hover{
+    cursor: pointer;
+    background-color: #00aeff   ;
 }

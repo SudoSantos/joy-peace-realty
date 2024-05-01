@@ -15,7 +15,7 @@ export const FeaturedPropertiesdata = [
         location: 'Osapa London Lagos, Nigeria',
         nob: '1',
         type:'RESIDENTIAL APARTMENT',
-        price:'50,000,000'
+        price:'500,000,000'
     },
 
     {
@@ -24,7 +24,7 @@ export const FeaturedPropertiesdata = [
         location: 'Ikoyi Lagos State Nigeria',
         nob: '2',
         type:'MULTI FAMILY HOME, APARTMENT',
-        price: '70,000,000'
+        price: '450,000,000'
     },
 
     {
@@ -33,6 +33,30 @@ export const FeaturedPropertiesdata = [
         location: 'Ikate, Lagos State, Nigeria',
         nob: '5',
         type:'SINGLE FAMILY HOME, APARTMENT',
-        price: '90,000,000'
+        price: '700,000,000'
+     },
+    {
+        image:[image5, image1, image2, image3, image4, image11, image6, image7, image8],
+        desc: "5 Bedroom Contemporary Full Detached",
+        location: 'Ikate, Lagos State, Nigeria',
+        nob: '5',
+        type:'SINGLE FAMILY HOME, APARTMENT',
+        price: '700,000,000'
+    },
+    {
+        image:[image5, image1, image2, image3, image4, image11, image6, image7, image8],
+        desc: "5 Bedroom Contemporary Full Detached",
+        location: 'Ikate, Lagos State, Nigeria',
+        nob: '5',
+        type:'SINGLE FAMILY HOME, APARTMENT',
+        price: '700,000,000'
+    },
+    {
+        image:[image5, image1, image2, image3, image4, image11, image6, image7, image8],
+        desc: "5 Bedroom Contemporary Full Detached",
+        location: 'Ikate, Lagos State, Nigeria',
+        nob: '5',
+        type:'SINGLE FAMILY HOME, APARTMENT',
+        price: '700,000,000'
     }
 ];
