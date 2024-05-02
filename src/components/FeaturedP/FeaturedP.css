@@ -17,6 +17,10 @@
     padding: 20px;
     width: 100vw;
   }
+
+  .card-container::-webkit-scrollbar{
+    display: none;
+  }
   
   .col {
     flex: 0 0 auto;
