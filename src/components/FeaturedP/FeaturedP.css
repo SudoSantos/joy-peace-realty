@@ -24,7 +24,7 @@
   
   .col {
     flex: 0 0 auto;
-    width: 390px;
+    width: 450px;
     position: relative;
     /* Add other card styles */
   }
@@ -82,6 +82,7 @@
 .arr-left,
 .arr-right{
     position: absolute;
+    cursor: pointer;
     width: 30px;
     height: 30px;
     color: white;
