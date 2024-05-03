@@ -23,13 +23,26 @@
 
 .card-container{
     border: 1px dotted;
+    /* margin: 5px auto; */
 }
 
 .card{
+    position: relative;
     width: 400px;
     height: 350px;
+    margin: auto;
 }
 
 .card>img{
     width: 100%;
+}
+
+.details{
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+}
+
+.details>p:first-child{
+    display: none;
 }

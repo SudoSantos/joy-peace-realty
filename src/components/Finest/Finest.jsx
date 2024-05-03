@@ -19,7 +19,25 @@ const Finest = () => {
             <p className="price">100,000,000</p>
           </div>
         </div>
+
+        <div className="card">
+          <img src={image} alt="" />
+          <div className="details">
+            <p className="desc">4 Bedroom Semi detatched duplex for sale</p>
+            <p className="price">100,000,000</p>
+          </div>
+        </div>
+
+        <div className="card">
+          <img src={image} alt="" />
+          <div className="details">
+            <p className="desc">4 Bedroom Semi detatched duplex for sale</p>
+            <p className="price">100,000,000</p>
+          </div>
+        </div>
       </div>
+
+      
     </section>
   );
 };
