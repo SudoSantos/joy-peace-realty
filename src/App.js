@@ -21,7 +21,7 @@ function App() {
        <div className="discover2">
         <h1>Check Our Selection Of Finest Properties</h1>
       </div>
-      {/* <Finest /> */}
+      <Finest />
       <Explore />
       <Agents />
       <Testimonials />

@@ -4,3 +4,11 @@
     position: absolute;
     top: 55%;
 }
+
+.card{
+    width: 390px;
+}
+
+.card>img{
+    width: 100%;
+}
