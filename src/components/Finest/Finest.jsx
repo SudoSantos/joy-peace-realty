@@ -1,111 +1,27 @@
-import React from 'react'
-import image from '../../assets/FeaturedPimages/house5.jpg';
-// import '../FeaturedP/FeaturedP.css';
+import React from "react";
+import image from "../../assets/FeaturedPimages/house5.jpg";
 import { LiaBedSolid } from "react-icons/lia";
-import './Finest.css';
+import "./Finest.css";
 
-function Finest() {
+const Finest = () => {
   return (
-    <section style={{ backgroundColor: '#f7f8f9' }}>
+    <section className="container">
 
-      <div className=" card-container">
-
-        <div className="card">
-          <img src={image} alt='' />
-          <div className='holder'>
-            <h4>Luxurious 1 Bedroom Apartment for sale</h4>
-            <b className="location">#580,000,000</b>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <LiaBedSolid className="bedIcon" />
-              <p className="num">2 &nbsp; &nbsp; 1</p>
-            </div>
-
-          </div>
-        </div>
-
-        <div className="card">
-          <img src={image} alt='' />
-          <div className='holder'>
-            <h4>Luxurious 2 Bedroom Apartment for sale</h4>
-            <b className="location">#580,000,000</b>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <LiaBedSolid className="bedIcon" />
-              <p className="num">2 &nbsp; &nbsp; 1</p>
-            </div>
-
-          </div>
-        </div>
-
-        <div className="card">
-          <img src={image} alt='' />
-          <div className='holder'>
-            <h4>5 Bedroom Contemporary Full Detached</h4>
-            <b className="location">#580,000,000</b>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <LiaBedSolid className="bedIcon" />
-              <p className="num">2 &nbsp; &nbsp; 1</p>
-            </div>
-
-          </div>
-
-        </div>
-
+      <div className="header">
+        <h1>Check Our Selection Of Finest Properties</h1>
       </div>
 
-      {/* <section className="images-br" style={{transform: 'translateY(-50px)'}}>
-  
-        <div className="col">
-            <img src={image} alt='' />
-            <div className='holder'>
-              <h4>Luxurious 1 Bedroom Apartment for sale</h4>
-              <b className="location">#580,000,000</b>
-              <div style={{display:'flex', alignItems:'center', gap:'10px'}}>
-            <LiaBedSolid className="bedIcon" />
-            <p className="num">2 &nbsp; &nbsp; 1</p>
-            </div>
-            
-            </div>
-            
+      <div className="card-container">
+        <div className="card">
+          <img src={image} alt="" />
+          <div className="details">
+            <p className="desc">4 Bedroom Semi detatched duplex for sale</p>
+            <p className="price">100,000,000</p>
+          </div>
         </div>
-        
-  
-        <div className="col">
-          <img src={image} alt='' />
-          <div className='holder'>
-            <h4>Luxurious 2 Bedroom Apartment for sale</h4>
-            <b className="location">#580,000,000</b>
-            <div style={{display:'flex', alignItems:'center', gap:'10px'}}>
-            <LiaBedSolid className="bedIcon" />
-            <p className="num">2 &nbsp; &nbsp; 1</p>
-            </div>
-            
-          </div>          
-        </div>
-        
-  
-        <div className="col">
-          <img src={image} alt='' />
-          <div className='holder'>
-            <h4>5 Bedroom Contemporary Full Detached</h4>
-            <b className="location">#580,000,000</b>
-            <div style={{display:'flex', alignItems:'center', gap:'10px'}}>
-            <LiaBedSolid className="bedIcon" />
-            <p className="num">2 &nbsp; &nbsp; 1</p>
-            </div>
-            
-          </div>          
-        </div>
- 
-      </section> */}
-
-      <div className="ldmr" style={{ transform: 'translateY(-50px)' }}>
-        <button>Load More</button>
       </div>
-
-
-
     </section>
-  )
-}
+  );
+};
 
-export default Finest
+export default Finest;

@@ -18,9 +18,6 @@ function App() {
       <FeaturedP />
       <Midpage />
       <Form />
-       <div className="discover2">
-        <h1>Check Our Selection Of Finest Properties</h1>
-      </div>
       <Finest />
       <Explore />
       <Agents />

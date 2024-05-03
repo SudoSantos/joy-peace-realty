@@ -15,18 +15,3 @@
     font-weight: lighter;
 }
 
-.discover2{
-    color: black;  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 15rem; 
-    background-color: white;
-}
-
-.discover2 h1{
-    font-size: 2.7rem;
-    font-weight: lighter;
-}
