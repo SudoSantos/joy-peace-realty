@@ -2,7 +2,7 @@
     width: 100vw;
     max-height: 600px;
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    /* grid-template-columns: repeat(3, minmax(300px, 1fr)); */
     justify-content: space-between;
     overflow: hidden;
 }
