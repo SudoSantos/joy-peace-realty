@@ -1,5 +1,6 @@
 .containr{
     padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #f7f8f9;
     width: 100vw;
     /* height: 25vw; */
@@ -49,6 +50,10 @@
     background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.7));   
 }
 
+.cd:hover::after {
+    height: 0;
+}
+
 .cd>img{
     width: 100%;
     height: 100%;
@@ -60,10 +65,6 @@
     left: 5%;
     color: white;
     z-index: 41;
-}
-
-.desc{
-    /* font-weight: bold; */
 }
 
 .price{
@@ -128,4 +129,30 @@
     color: white;
     border: none;
     background-color: rgba(0, 0, 0, 0.692);
+}
+
+.ldmr{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 50px auto;
+    height: 25px; 
+}
+
+.ldmr button{
+    border: 1px solid #00aeff;
+    color: #00aeff;
+    background-color: transparent;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .1s ease-in;
+}
+
+.ldmr button:hover{
+    background-color: #00aeff;
+    color: white;
 }

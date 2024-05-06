@@ -113,28 +113,3 @@
     background-color: rgba(45, 163, 237, 0.829);
 }
 
-.ldmr{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 25px; /* Adjust as needed */
-}
-
-.ldmr button{
-    border: 1px solid #00aeff;
-    color: #00aeff;
-    width: 200px;
-    height: 40px;
-    font-size: 15px;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.ldmr button:hover{
-    background-color: #00aeff;
-    color: white;
-    transition: .2s ease-in;
-}

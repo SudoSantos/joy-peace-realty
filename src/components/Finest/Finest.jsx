@@ -32,7 +32,7 @@ const Finest = () => {
               <div className="details">
                 <p className="desc">{property.desc}</p>
                 <p className="price">< TbCurrencyNaira className="currency"/>{property.price}</p>
-                <div style={{ display: 'flex', gap: '5px' }}>
+                <div style={{ display: 'flex', gap: '5px',alignItems:'center' }}>
                   < LiaBedSolid className="bed" />
                   <span>{property.nob}</span>
                 </div>
@@ -41,31 +41,15 @@ const Finest = () => {
             </div>
           )
         })}
-
-
-        {/* <div className="cd">
-          < FaChevronLeft className="ar-left" />
-          <img src={image} alt="" />
-          <div className="details">
-            <p className="desc">4 Bedroom Semi detatched duplex for sale</p>
-            <p className="price">100,000,000</p>
-            < LiaBedSolid className="bed" />
-          </div>
-          < FaChevronRight className="ar-right" />
-        </div> */}
-
-        {/* <div className="cd">
-          < FaChevronLeft className="ar-left" />
-          <img src={image} alt="" />
-          <div className="details">
-            <p className="desc">4 Bedroom Semi detatched duplex for sale</p>
-            <p className="price">100,000,000</p>
-            < LiaBedSolid className="bed" />
-          </div>
-          < FaChevronRight className="ar-right" />
-        </div> */}
-
       </div>
+
+
+      <div className="ldmr">
+        <button>Load More</button>
+      </div>
+
+
+      
 
 
     </section>
