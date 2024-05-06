@@ -16,6 +16,7 @@ import pic14 from '../assets/FinestImages/1/208.jpg'
 
 export  const FinestProperties = [
     {
+        id: 1,
         image:[pic1, pic2, pic3, pic14, pic13],
         desc: 'Luxurious 5 Bedroom Full Detached',
         price: '580,000,000',

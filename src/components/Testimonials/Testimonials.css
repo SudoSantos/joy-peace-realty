@@ -3,6 +3,12 @@
     padding: 30px;
 }
 
+.testimonialz h2{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: lighter;
+}
+
 .testimonials {
     display: flex;
     flex-direction: row;
@@ -12,12 +18,11 @@
 }
 
 div.testifier {
-    width: 30;
     height: fit-content;
     background-color: #edf9ff;
-    margin-top: 50px;
-    margin: 50px 20px 100px 20px;
-    transform: translateY(100px);
+    /* margin-top: 50px; */
+    margin: 30px 20px 50px 20px;
+    /* transform: translateY(100px); */
     padding: 30px;
 }
 
