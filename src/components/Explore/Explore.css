@@ -1,7 +1,10 @@
 .ln-img{
     display: flex;
+    /* background-color: white; */
+    align-items: center;
     justify-content: space-between;
     padding: 20px;
+    margin: 100px 0;
 }
 
 .image-cntr{
@@ -9,7 +12,7 @@
     position: relative;
     height: 430px;
     margin: 15px;
-    margin-top: -50px;
+    /* margin-top: -50px; */
 }
 
 .image-cntr::after{
@@ -37,16 +40,17 @@
 
 .text-cntr{
     width: 20%;
-    vertical-align: center;
-    margin-top: -50px;
-    margin: 15px;
+    /* vertical-align: center; */
+    /* margin-top: -50px; */
+    /* border: 1px solid; */
+    /* margin: 15px; */
     /* line-height: 50px; */
 }
 
 .text-cntr h3{
-    font-weight: lighter;
-    font-size: 25px;
-    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
 }
 
 .text-cntr p{
