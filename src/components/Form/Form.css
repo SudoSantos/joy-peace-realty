@@ -31,12 +31,17 @@
   
 .one h2 {
     margin-bottom: 15px;
-    font-weight: lighter;
+    font-weight: 400;
+  }
+
+.one p{
+    font-size: 1rem;
+    font-weight: 300;  
   }
     
 .two{
   width: 40%;
-  padding: 30px;
+  padding: 30px 50px;
     background-color: white;
   }
 
@@ -64,7 +69,7 @@ form{
   display: flex;
   flex-direction: row;
   margin: 5px 0;
-  /* border: 1px solid; */
+  /* border: 1px solid;   */
   height: 45px;
   justify-content: space-between;
   }
@@ -100,6 +105,7 @@ form{
 
 .btn{
     width: 100%;
+    margin: 5px 0;
     height: 40px;
     background-color: #00aeff;
     border-radius: 5px;

@@ -1,8 +1,5 @@
 import React from "react";
 import { Testimonialsdata } from "../../data/Testimonialsdata";
-import Matthew from "../../assets/matthew.jpg";
-import Alex from "../../assets/alex.jpg";
-import Olawale from "../../assets/olawale.jpg";
 import "./Testimonials.css";
 import "../Agents/Agents.css";
 
