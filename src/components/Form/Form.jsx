@@ -5,7 +5,7 @@ const Form = () => {
   return (
     <section class="big-container">
       <div class="parts">
-        <div class="part one">
+        <div class="one">
           <div class="content">
             <h2>Why J&P is The Perfect Choice?</h2>
             <div
@@ -68,7 +68,7 @@ const Form = () => {
           </div>
         </div>
 
-        <div class="part two">
+        <div class="two">
           <form action="">
             <h3 style={{ fontSize: "30px", fontWeight: "lighter" }}>
               Real Estate Inquiry Form
@@ -81,7 +81,6 @@ const Form = () => {
               <option value="">Purchase</option>
               <option value="">Rent</option>
               <option value="">Sell</option>
-              <option value="">Miss</option>
               <option value="">Evaluation</option>
               <option value="">Mortagage</option>
             </select>
@@ -93,8 +92,9 @@ const Form = () => {
             <input
               type="text"
               style={{
-                width: "90%",
-                height: "40px",
+                width: "100%",
+                margin: '5px 0', 
+                height: "45px",
                 border: "2px solid rgb(212, 205, 205)",
                 borderRadius: "5px",
                 paddingLeft: "10px",
