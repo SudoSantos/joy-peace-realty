@@ -90,15 +90,8 @@ const Form = () => {
             </div>
 
             <input
+            className="email"
               type="text"
-              style={{
-                width: "100%",
-                margin: '5px 0', 
-                height: "45px",
-                border: "2px solid rgb(212, 205, 205)",
-                borderRadius: "5px",
-                paddingLeft: "10px",
-              }}
               placeholder="Email Address"
             />
 

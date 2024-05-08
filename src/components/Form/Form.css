@@ -41,7 +41,7 @@
     
 .two{
   width: 40%;
-  padding: 30px 50px;
+  padding: 30px 40px;
     background-color: white;
   }
 
@@ -76,12 +76,23 @@ form{
   
 .info input {
     /* width: 90%; */
+    outline: none;
     width: 47%;
     height: 100%;
     /* margin-bottom: 10px; */
     border: 2px solid rgb(212, 205, 205);
     border-radius: 5px;
     padding-left: 2%;
+  }
+
+  .email{
+      width: 100%;
+      outline:none;
+      margin: 5px 0; 
+      height: 45px;
+      border: 2px solid rgb(212, 205, 205);
+      border-radius: 5px;
+      padding-left: 10px;
   }
 
   .sprd{

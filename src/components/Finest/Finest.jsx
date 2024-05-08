@@ -47,7 +47,7 @@ const Card = ({ property }) => {
 
 const Finest = () => {
   return (
-    <section className="container">
+    <section className="containr">
       <div className="header">
         <h1>Check Our Selection Of Finest Properties</h1>
       </div>

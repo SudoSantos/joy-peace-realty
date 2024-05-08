@@ -12,8 +12,23 @@
     position: relative;
     height: 430px;
     margin: 15px;
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideIn 5s ease forwards;
     /* margin-top: -50px; */
 }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  
 
 .image-cntr::after{
     content: "";

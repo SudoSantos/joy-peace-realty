@@ -188,11 +188,10 @@
 .move{
     position: absolute;
     display: flex;
-    justify-content: space-between;
     margin-top: 30px;
     right: 3%;
+    gap: 10px;
     /* border: 1px dotted; */
-    width: 8%;
 }
 
 .move>button{
