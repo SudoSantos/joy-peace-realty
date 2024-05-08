@@ -208,3 +208,39 @@
     cursor: pointer;
     background-color: #00aeff   ;
 }
+
+@media screen and (max-width: 768px){
+    .images-br{
+        width:100%;
+        height: fit-content;
+    }
+    .card-container{
+        width: 100%;
+        overflow-x: auto;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col{
+        width: 100%;
+        height: 300px;
+        margin: 0;
+    }
+
+    .col h4,
+    .col p.location,
+    .col p.num{
+        display: none;
+    }
+
+    .short-line{
+        display: none;
+    }
+
+
+    .move{
+        display: none;
+    }
+}

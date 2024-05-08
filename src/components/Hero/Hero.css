@@ -15,3 +15,18 @@
     font-weight: 300;
 }
 
+@media screen and (max-width: 768px){
+
+    .discover{
+        padding: 20px; 
+    }
+    .discover h1{
+        font-weight: bold;
+        font-size: 1.7rem;
+    }
+
+    .discover p{
+        font-size: 0.8rem;
+    }
+}
+

@@ -110,5 +110,63 @@
     background-color: #4abff5;
 }
 
+@media screen and (max-width: 768px){
+
+  .navbar{
+    background-image:linear-gradient(rgba(2, 18, 49, 0.632),rgba(5, 15, 62, 0.655)), url(../../assets/miami-beach.jpg);
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    background-position: center;
+}
+
+      .nav-items{
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    } 
+
+    .nav-items>div>img{
+      margin: 0;
+    }
+
+    .links{
+      display: none;
+    }
+
+    .text-box{
+      height: fit-content;
+      padding: 20px;
+    }
+
+    .text-box h1{
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .text-box p{
+       font-size: 0.8rem;
+    }
+
+    .search-eng{
+      max-width: 100%;
+      padding: 20px;
+      transform: none;
+      box-shadow: none;
+      margin: 0;
+    }
+
+    .search-eng select,
+    .search-eng input{
+      width: 100%;
+      margin: 5px 0;
+    }
+
+    .search-eng button{
+      width: 100%;
+    }
+
+}
+
   
 
