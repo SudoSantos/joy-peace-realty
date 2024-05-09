@@ -15,27 +15,27 @@ const Midpage = () => {
       </p>
     </div>
 
-    <div className="elem">
+    <div className="elem elemI">
       <img src={Image1} alt="" />
       <div className="caption">More Details</div>
     </div>
 
-    <div className="elem">
+    <div className="elem elemI">
       <img src={Image1} alt="" />
       <div className="caption">More Details</div>
     </div>
 
-    <div className="elem">
+    <div className="elem elemI">
       <img src={Image1} alt="" />
       <div className="caption">More Details</div>
     </div>
 
-    <div className="elem">
+    <div className="elem elemI">
       <img src={Image1} alt="" />
       <div className="caption">More Details</div>
     </div>
 
-    <div className="elem">
+    <div className="elem elemI">
       <img src={Image1} alt="" />
       <div className="caption">More Details</div>
     </div>
@@ -49,12 +49,12 @@ const Midpage = () => {
       </p>
     </div>
 
-    <div className="elem">
+    <div className="elem elemI">
       <img src={Image1} alt="" />
       <div className="caption">More Details</div>
     </div>
 
-    <div className="elem">
+    <div className="elem elemI">
       <img src={Image1} alt="" />
       <div className="caption">More Details</div>
     </div>

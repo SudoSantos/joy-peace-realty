@@ -130,3 +130,29 @@ form{
     background-color: rgba(45, 163, 237, 0.829);
 }
 
+
+@media screen and (max-width: 768px){
+  .parts{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+  }
+
+  .one,
+  .two{
+    width: 100%;
+  }
+}
+
+.one{
+  margin-top: 50px;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.content{
+  margin: 0;
+  /* border: 1px solid; */
+}
