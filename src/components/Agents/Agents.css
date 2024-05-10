@@ -66,3 +66,16 @@ a{
     text-decoration: none;
     margin-top: 25px;
 }
+
+@media screen and (max-width: 768px){
+    .agents{
+        width: 100%;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .agent{
+        width: inherit;
+    }
+    }

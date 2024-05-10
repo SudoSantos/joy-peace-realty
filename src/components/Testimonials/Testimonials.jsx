@@ -1,4 +1,5 @@
 import React from "react";
+import Carousel from 'react-bootstrap/Carousel';
 import { Testimonialsdata } from "../../data/Testimonialsdata";
 import "./Testimonials.css";
 import "../Agents/Agents.css";

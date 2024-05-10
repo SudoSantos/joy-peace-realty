@@ -9,7 +9,7 @@ const Footer = () => {
                 <div>
                     <p style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>Discover</p>
 
-                    <div style={{ color: 'white', transform: 'translateY(30px)' }}>
+                    <div className='location'>
                         <p>Lekki</p>
                         <p>Ikoyi</p>
                         <p>Lagos</p>
@@ -20,7 +20,7 @@ const Footer = () => {
                 <div>
                     <p style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>Contact Us</p>
 
-                    <div style={{ color: 'white', transform: 'translateY(30px)', width: '350px' }}>
+                    <div className='address'>
                         <p>Address: 79A Oyibo Adjarho Street, Lekki Phase1, Lagos, Nigeria.</p>
                         <p>joyandpeacerealty@gmail.com</p>
                     </div>
@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
 
             <div className="second">
-                <p style={{color: 'white', marginLeft:'100px', transform: 'translateY(30px)'}}>© Houzez - All rights reserved</p>
+                <p>© Houzez - All rights reserved</p>
             </div>
 
         </footer>
